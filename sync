@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rsync -avz -e ssh output/ www-data@labs.alabs.org:/var/www/labs.alabs.org
